@@ -9,6 +9,8 @@ namespace Euler15.Tests
     [TestClass]
     public class SumOfPowersTests
     {
+        SumOfPowers sum = new SumOfPowers();
+
         /// <summary>
         /// Tests for GetPower method
         /// </summary>
@@ -68,6 +70,30 @@ namespace Euler15.Tests
             Assert.AreEqual(expectedValue13192_5, actualValue13192_5, "Error with number 34564 and power 5");
             Assert.AreEqual(expectedValue92727_5, actualValue92727_5, "Error with number 92727 and power 5");
             Assert.AreEqual(expectedValue194979_5, actualValue194979_5, "Error with number 194979 and power 5");
+        }
+
+
+        /// <summary>
+        /// Tests for Compute method
+        /// </summary>
+        [TestMethod]
+        public void ComputeTest()
+        {
+            // Expected values
+            int expectedValue4 = 19316;
+            int expectedValue5 = 443839;
+            int expectedValue6 = 0;
+
+            // Actual values
+            int actualValue4 = sum.Compute(4);
+            int actualValue5 = sum.Compute(5);
+            int actualValue6 = sum.Compute(6);
+
+
+            // Asserts
+            Assert.AreEqual(expectedValue4, actualValue4, "Error with power 4");
+            Assert.AreEqual(expectedValue5, actualValue5, "Error with power 5");
+            Assert.AreEqual(expectedValue6, actualValue6, "Error with power 6");
         }
     }
 }
