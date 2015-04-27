@@ -10,7 +10,10 @@ namespace Euler15
     {
         public static void Main()
         {
+            SumOfPowers euler = new SumOfPowers();
 
+            Console.WriteLine(euler.Compute(5));
+            Console.ReadKey();
         }
     }
 }
