@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace Euler15.Tests
 {
     /// <summary>
-    /// Tests for SumOfFifthPowersTests Class
+    /// Tests for SumOfFifthPowers Class
     /// </summary>
     [TestClass]
     public class SumOfPowersTests
@@ -39,6 +39,7 @@ namespace Euler15.Tests
             Assert.AreEqual(expectedValue6_7, actualValue6_7, "Error with base 6 and exponent 7");
             Assert.AreEqual(expectedValue4_9, actualValue4_9, "Error with base 4 and exponent 9");
         }
+
 
         /// <summary>
         /// Tests for SumOfDigitsPower method

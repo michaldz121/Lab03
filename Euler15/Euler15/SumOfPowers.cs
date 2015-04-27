@@ -1,11 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Euler15
 {
+    /// <summary>
+    /// Class for computing the sum of all the numbers 
+    /// that can be written as the sum of fifth powers of their digits
+    /// </summary>
     public class SumOfPowers
     {
         private int result;

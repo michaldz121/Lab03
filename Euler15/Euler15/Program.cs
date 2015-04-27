@@ -1,8 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿/*
+	Euler Project 15
+	
+	AUTHOR:
+		Paweł Gancarz, PK Mech, 13K3
+	
+	PROGRAMMING LANGUAGE:
+		C#
+	
+	CONDING STANDARD:
+		C# Coding Convention
+*/
+
+using System;
 
 namespace Euler15
 {
