@@ -53,7 +53,20 @@ namespace Euler15
         /// </summary>
         public static int SumOfDigitsPower(int number, int power)
         {
-            throw new NotImplementedException();
+            int sumOfPowers = 0;
+
+            while (number > 0)
+            {
+                // computes the remainder after dividing its first operand by its second
+                int remainder = number % 10;
+                number /= 10;
+
+                remainder = GetPower(remainder, power);
+
+                sumOfPowers += remainder;
+            }
+
+            return sumOfPowers;
         }
 
         /// <summary>
