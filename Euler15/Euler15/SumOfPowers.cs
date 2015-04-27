@@ -33,7 +33,15 @@ namespace Euler15
         /// </summary>
         public static int GetPower(int baseNumber, int exponent)
         {
-            throw new NotImplementedException();
+            int multiplier = baseNumber;
+
+            //small loop to make the nth power of the digit as this is faster than using the math.pow function
+            for (int i = 1; i < exponent; i++)
+            {
+                baseNumber *= multiplier;
+            }
+
+            return baseNumber;
         }
     }
 }
