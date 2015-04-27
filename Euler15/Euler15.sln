@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euler15", "Euler15\Euler15.csproj", "{3CE5365A-01B2-4EDE-9479-DBAC4D9BFE89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euler15.Tests", "Euler15.Tests\Euler15.Tests.csproj", "{6F2D4743-6BD7-4F08-BE7E-4E34D49DB643}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CE5365A-01B2-4EDE-9479-DBAC4D9BFE89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CE5365A-01B2-4EDE-9479-DBAC4D9BFE89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CE5365A-01B2-4EDE-9479-DBAC4D9BFE89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CE5365A-01B2-4EDE-9479-DBAC4D9BFE89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F2D4743-6BD7-4F08-BE7E-4E34D49DB643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F2D4743-6BD7-4F08-BE7E-4E34D49DB643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F2D4743-6BD7-4F08-BE7E-4E34D49DB643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F2D4743-6BD7-4F08-BE7E-4E34D49DB643}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
