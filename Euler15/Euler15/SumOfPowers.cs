@@ -76,7 +76,22 @@ namespace Euler15
         /// </summary>
         public int Compute(int power)
         {
-            throw new NotImplementedException();
+            result = 0;
+
+            for (int i = 2; i < 355000; i++)
+            {
+                int sumOfPowers = 0;
+                int number = i;
+
+                // loop for each digit in number
+                sumOfPowers = SumOfDigitsPower(number, power);
+
+                if (sumOfPowers == i)
+                {
+                    result += i;
+                }
+            }
+            return result;
         }
     }
 }
